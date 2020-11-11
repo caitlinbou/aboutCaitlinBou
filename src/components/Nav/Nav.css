@@ -1,0 +1,133 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-nav {
+  background-color: black;
+}
+
+.nav-item {
+  font-size: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  letter-spacing: 2px;
+  color: white
+}
+
+a:hover {
+  color: orangered;
+}
+
+.active {
+  color: orangered;
+}
+
+.links {
+  color: white;
+}
+
+#git {
+  margin-right: 5px;
+}
+
+#linked {
+  margin-left: 5px;
+}
+
+.projectLinks {
+  color: lightblue;
+}
+
+#pdf {
+  margin-left: 60%;
+}
+
+.summary {
+  margin-bottom: 50px;
+}
+
+.edu-width {
+  width: 80%;
+}
+
+.text-box {
+  margin-top: 25px;
+}
+
+.experience {
+  margin-bottom: 50px;
+}
+
+.portfolio-pic {
+  width: 100%;
+}
+
+#tbPic {
+  margin-right: 10px;
+}
+
+#musicPic {
+  margin-bottom: 50px;
+}
+
+.title {
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.role {
+  color: white;
+}
+
+#about-me {
+  padding-left: 12%;
+  padding-right: 12%;
+  font-size: 14px;
+  text-align: right;
+  color: rgb(168, 166, 166);
+  hanging-punctuation: last;
+}
+
+#resume {
+  padding-top: 60px;
+}
+
+#projects {
+  margin-top: 75px;
+}
+
+#contact {
+  margin-top: 75px;
+}
+
+h3 {
+  color: rgb(168, 166, 166);
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  #about-me {
+    text-align: center;
+    padding-left: 6%;
+    padding-right: 6%;
+    font-size: 2em;
+  }
+  h1 {
+    font-size: 5em;
+    white-space: pre;
+  }
+}
+
+@media all and (max-width: 768px) {
+  #about-me {
+    text-align: center;
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  h1 {
+    font-size: 2em;
+    white-space: pre;
+  }
+}

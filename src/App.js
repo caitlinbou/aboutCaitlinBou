@@ -1,10 +1,11 @@
 import "./App.css";
-import Background from "./components/Background";
+import Body from "./components/Body/Body";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
-    <div className="bg">
-      <Background/>
+    <div className="background">
+      <Body/>
     </div>
   );
 }

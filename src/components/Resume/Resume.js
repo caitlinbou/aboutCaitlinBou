@@ -1,31 +1,28 @@
 import React from "react";
+import "./Resume.css";
+import TechResume from "../../documents/TechResume.pdf";
+import { Container, Row, Col } from "react-bootstrap";
 
 export default function Resume() {
   return (
-    <div className="container">
-      <div id="resume">
-        <div className="row justify-content-center">
-          <div className="col-10 justify-content-center">
+    <Container>
+        <Row className="justify-content-center" id="resume">
+          <Col sm={10} className="justify-content-center">
             <img
-              src="assets/css/75-pic.png"
+              src="../../../assets/75-pic.png"
               alt="caitPic"
               id="pic"
               className="mx-auto d-block"
             />
-          </div>
-        </div>
-        <div className="row justify-content-center"></div>
-      </div>
-      <div className="row justify-content-center">
-        <div className="summary text-left col-10">
+          </Col>
+        </Row>
+        <Row className="justify-content-center"></Row>
+
+      <Row className="justify-content-center">
+        <Col sm={10} className="summary text-left">
           <h3>
             Summary{" "}
-            <a
-              className="links"
-              id="pdf"
-              href="assets/css/technicalResume .pdf"
-              target="_blank"
-            >
+            <a className="links" id="pdf" href={TechResume} target="_blank">
               <i className="fa fa-file-pdf-o" aria-hidden="true"></i>
             </a>
           </h3>
@@ -41,10 +38,10 @@ export default function Resume() {
             keeping your technology team productive, communicative, and
             connected.
           </p>
-        </div>
-      </div>
-      <div className="row justify-content-center">
-        <div className="col-5 text-right technical ">
+        </Col>
+      </Row>
+      <Row className="justify-content-center">
+        <Col sm={5} className="technical">
           <div className="edu-width text-left">
             <h3>Technical Skills</h3>
             <br />
@@ -58,11 +55,10 @@ export default function Resume() {
             <h4 className="tools">Applications</h4>
             <p>Github, Heroku, mySQL, Postman</p>
           </div>
-        </div>
-        </div>
+        </Col>
 
-        <div className="col-5 text-left education">
-          <div className="edu-width">
+        <Col sm={5} className="education">
+          <div className="edu-width text-left">
             <h3>Education</h3>
             <br />
             <h4>UW Full Stack Coding Bootcamp Certificate</h4>
@@ -78,10 +74,11 @@ export default function Resume() {
             <h4>Project Management Certification</h4>
             <p>LinkedIn</p>
           </div>
-        </div>
+        </Col>
+      </Row>
       <br />
-      <div className="row justify-content-center">
-        <div className="col-10 text-left experience">
+      <Row className="justify-content-center">
+        <Col sm={10} className="text-left experience">
           <h3>Experience</h3>
           <br />
           <h4>VP, Financial Center Manager 2005 – Present</h4>
@@ -121,17 +118,17 @@ export default function Resume() {
               Currency.
             </li>
           </ul>
-        </div>
-      </div>
-      <div className="row justify-content-center">
-        <div className="col-10">
+        </Col>
+      </Row>
+      <Row className="justify-content-center">
+        <Col sm={10} className="col-10">
           <div className="text-left special">
             <h2>Languages/Special Skills</h2>
             <br />
             <h3>Fluent in written and spoken Spanish</h3>
           </div>
-        </div>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 }

@@ -1,0 +1,41 @@
+h1 {
+    font-size: 71px;
+    color: whitesmoke;
+  }
+  
+  .header {
+    color: white;
+    text-align: center;
+    font-family: arial;
+    position: relative;
+    margin-top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @media all and (min-width: 768px) and (max-width:1024px) {
+    #about-me {
+      text-align: center;
+      padding-left: 6%;
+      padding-right: 6%;
+      font-size: 2em;
+    }
+    h1 {
+      font-size: 3em;
+      white-space: pre;
+    }
+  
+  }
+  
+  @media all and (max-width:768px) {
+    #about-me {
+      text-align: center;
+      padding-left: 6%;
+      padding-right: 6%;
+    }
+    h1 {
+      font-size: 1em;
+      white-space: pre;
+    }
+  
+  }
