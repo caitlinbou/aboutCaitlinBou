@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row} from "react-bootstrap";
 import Nav from "../Nav/Nav";
 import hero from "./hero.png";
 import "./Body.css";

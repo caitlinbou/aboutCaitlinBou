@@ -3,29 +3,3 @@
 }
 
 
-@media all and (min-width: 768px) and (max-width:1024px) {
-  #about-me {
-    text-align: center;
-    padding-left: 6%;
-    padding-right: 6%;
-    font-size: 2em;
-  }
-  h1 {
-    font-size: 5em;
-    white-space: pre;
-  }
-
-}
-
-@media all and (max-width:768px) {
-  #about-me {
-    text-align: center;
-    padding-left: 6%;
-    padding-right: 6%;
-  }
-  h1 {
-    font-size: 2em;
-    white-space: pre;
-  }
-
-}

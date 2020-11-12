@@ -9,7 +9,7 @@ export default function Contact() {
       <Col sm={12} className="text-right">
         <h2>Caitlin Bouroncle</h2>
         <p>VP Financial Manager && Full Stack Developer</p>
-        <a href="mailto:caitlin.bouroncle@gmail.com" id="email" target="_blank">
+        <a href="mailto:caitlin.bouroncle@gmail.com" id="email" target="_blank" rel="noreferrer">
           caitlin.bouroncle@gmail.com
         </a>{" "}
         <br />

@@ -27,6 +27,7 @@ export default function Header() {
             id="git"
             href="https://github.com/caitlinbou"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="fa fa-github" aria-hidden="true"></i>
           </a>
@@ -35,6 +36,7 @@ export default function Header() {
             id="linked"
             href="https://linkedin.com/in/caitlin-bouroncle"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="fa fa-linkedin-square" aria-hidden="true"></i>
           </a>

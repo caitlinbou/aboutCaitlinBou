@@ -22,7 +22,7 @@ export default function Resume() {
         <Col sm={10} className="summary text-left">
           <h3>
             Summary{" "}
-            <a className="links" id="pdf" href={TechResume} target="_blank">
+            <a className="links" id="pdf" href={TechResume} target="_blank" rel="noreferrer">
               <i className="fa fa-file-pdf-o" aria-hidden="true"></i>
             </a>
           </h3>
